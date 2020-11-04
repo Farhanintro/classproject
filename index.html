@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css" rel="stylesheet">
+    <title>Class Project</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="header_main">
+            <div class="mainhead">
+                <div class="logo">
+                    <img src="images/lions-logo.jpg">
+                </div>
+
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="">Company</a></li>
+                        <li><a href="">sports</a></li>
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <div class="enroll-today">
+                        <a href="#">Enroll Today</a>
+                    </div>
+                    <span onclick="farhan()"><i class="far fa-angle-double-right"></i></span>
+                </nav>
+            </div>
+
+            <!-- sidenav -->
+            <div class="sidenav" id="mysidenav">
+                <a href="javascript:void(0)" class="closenav" onclick="closenav()">&times;</a>
+                <a href="">Company</a>
+                <a href="">sports</a>
+                <a href="">Subscription</a>
+                <a href="">Contact Us</a>
+                <div class="enroll_btns">
+                    <a href="#">Enroll Today</a>
+                </div>
+            </div>
+
+            <!-- sidenav end -->
+            <div class="header_text">
+                <h1> Design Your Sports</h1>
+                <p>A happier & healthier life is waiting for you!</p>
+                <a href="#">Design By Farhan</a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <div class="training_btn">
+        <a href="">Start Traning Now</a>
+        <p>Everyday is a challenge, change your life now.</p>
+    </div>
+    <!-- traning btn end -->
+
+
+    <!-- about club start -->
+    <div class="about_club">
+        <h1>About the Club</h1>
+        <p>an athelete can not run with money in his pockets.
+            he must run with his heart <br> in her hope and dreams
+            in his head.</p>
+    </div>
+
+    <!-- left and right container -->
+    <!-- <div class="cantainer">
+    <div class="lef-image flex">
+        <img src="images/left side.jpg" alt="">
+    </div>
+
+<div class="right-side flex">
+<div class="right-side-img">
+    <img src="images/men khilona he.jpg" alt="">
+</div>
+<div class="right_con">
+    <h3>hey this is text</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur minima hic ea quisquam accusamus.</p>
+</div>
+
+<div class="right-side-img">
+    <img src="images/men khilona he.jpg" alt="">
+</div>
+<div class="right_con">
+    <h3>hey this is text</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur minima hic ea quisquam accusamus.</p>
+</div>
+</div>
+
+</div> -->
+    <!-- <div class="container">
+
+    <div class="col_1 flex">
+        <img src="images/left side.jpg" alt="">
+    </div>
+
+    <div class="right_text flex">
+        
+        <div class="col_2">
+            <ul>
+                <li>
+            <div class="icon_img">
+                <img src="images/men khilona he.jpg" alt="">
+            </div>
+            <div class="text_here">
+                <h3>hey this is a text</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    <br>Eos sunt numquam sit molestias provident.</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="icon_img">
+                <img src="images/men khilona he.jpg" alt="">
+            </div>
+            <div class="text_here">
+                <h3>hey this is a text</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    <br>Eos sunt numquam sit molestias provident.</p>
+            </div>
+        </li>
+        </ul>
+        </div>
+    </div>
+    </div> -->
+
+    <!-- what our client say area -->
+    <div class="our_client">'
+        <h1>What Our Client Say</h1>
+
+        <div class="clients">
+            <img src="images/client-1.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, doloremque.</p>
+        </div>
+
+        <div class="clients">
+            <img src="images/logo-2.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, doloremque.</p>
+        </div>
+
+        <div class="clients">
+            <img src="images/logo-1.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, doloremque.</p>
+        </div>
+
+        <div class="clients">
+            <img src="images/logo-4.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, doloremque.</p>
+        </div>
+    </div>
+
+    <!-- price section -->
+    <div class="price_con">
+        <h1>Price plans</h1>
+
+        <div class="price">
+            <h3>Student</h3>
+            <ul>
+                <li><small>$</small>8</li><span>per month</span>
+                <div class="rectangle"></div>
+                <li>Personal license</li>
+            </ul>
+            <div class="purchase_btn">
+                <a href="#">Purchase</a>
+            </div>
+        </div>
+
+        <div class="price">
+            <h3>Professional</h3>
+            <ul>
+                <li><small>$</small>19 </li><span>per month</span>
+                <div class="rectangle"></div>
+                <li>Professional License Email Sipport</li>
+            </ul>
+            <div class="purchase_btn">
+                <a href="#">Purchase</a>
+            </div>
+        </div>
+
+        <div class="price">
+            <h3>AGENCY</h3>
+            <ul>
+                <li><small>$</small>49</li><span>per month</span>
+                <div class="rectangle"></div>
+                <li>1-12 Team Members Phone Support</li>
+            </ul>
+            <div class="purchase_btn">
+                <a href="#">Purchase</a>
+            </div>
+        </div>
+
+        <div class="price">
+            <h3>ENTERPRISE</h3>
+            <ul>
+                <li><small>$</small>79 </li> <span> per month</span>
+                <div class="rectangle"></div>
+                <li>Unlimited Team Member 24/7 phone Support</li>
+            </ul>
+            <div class="purchase_btn">
+                <a href="#">Purchase</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- video section -->
+    <div class="video_img">
+        <img src="images/video.jpg" alt="">
+    </div>
+
+    <!-- footer subscribe -->
+    <div class="email_con">
+        <div class="email_text">
+            <h2>Subscribe to our Newsletter</h2>
+        </div>
+        <div class="email_input">
+            <form action="/action_page.php">
+                <input type="text" placeholder="type your email adress.." name="search">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer_main">
+        <div class="footer_logo">
+            <img src="images/footer-logo.png" alt="">
+        </div>
+        <div class="footer_enroll_btn">
+            <hr>
+            <div class="today_btn">
+                <a href="#">Enroll Today</a>
+            </div>
+        </div>
+        <div class="footer_tagline">
+            <p>Everyday is a challenge, change your life now.</p>
+        </div>
+        <div class="footer_con">
+            <div class="your_galaxy">
+                <h5>We live your galaxy</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="social_icon">
+                <ul>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- script start -->
+    <script>
+        function farhan() {
+            document.getElementById("mysidenav").style.width = "250px"
+        }
+        const closenav = () => {
+            document.getElementById("mysidenav").style.width = "0px"
+        }
+    </script>
+    <!-- script end -->
+</body>
+
+</html>
